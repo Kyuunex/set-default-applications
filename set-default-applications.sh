@@ -1,7 +1,7 @@
 #!/bin/sh
 
 IMAGE_VIEWER=org.nomacs.ImageLounge.desktop
-AUDIO_PLAYER=deadbeef.desktop # audacious.desktop
+AUDIO_PLAYER=audacious.desktop
 VIDEO_PLAYER=mpv.desktop
 TEXT_EDITOR=org.kde.kate.desktop
 FILE_MANAGER=org.kde.dolphin.desktop
@@ -45,6 +45,7 @@ mimeo --prefer inode/directory $FILE_MANAGER
 
 mimeo --prefer x-scheme-handler/http $WEB_BROWSER
 mimeo --prefer x-scheme-handler/https $WEB_BROWSER
+mimeo --prefer text/html $WEB_BROWSER
 
 mimeo --prefer application/zip $ARCHIVE_MANAGER
 mimeo --prefer application/gzip $ARCHIVE_MANAGER
