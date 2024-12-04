@@ -23,12 +23,15 @@ mimeo --prefer audio/mpeg $AUDIO_PLAYER
 mimeo --prefer audio/ogg $AUDIO_PLAYER
 mimeo --prefer audio/vnd.wave $AUDIO_PLAYER
 mimeo --prefer audio/x-matroska $AUDIO_PLAYER
+mimeo --prefer audio/x-mod $AUDIO_PLAYER
 mimeo --prefer audio/x-mpegurl $AUDIO_PLAYER
 mimeo --prefer audio/x-ms-wma $AUDIO_PLAYER
 mimeo --prefer audio/x-musepack $AUDIO_PLAYER
 mimeo --prefer audio/x-opus+ogg $AUDIO_PLAYER
+mimeo --prefer audio/x-s3m $AUDIO_PLAYER
 mimeo --prefer audio/x-speex+ogg $AUDIO_PLAYER
 mimeo --prefer audio/x-vorbis+ogg $AUDIO_PLAYER
+mimeo --prefer audio/x-xm $AUDIO_PLAYER
 
 mimeo --prefer application/x-cue $AUDIO_PLAYER
 
