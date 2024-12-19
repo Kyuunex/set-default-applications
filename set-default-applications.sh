@@ -40,6 +40,7 @@ mimeo --prefer application/x-partial-download $VIDEO_PLAYER
 mimeo --prefer video/3gpp $VIDEO_PLAYER
 mimeo --prefer video/mp2t $VIDEO_PLAYER
 mimeo --prefer video/mp4 $VIDEO_PLAYER
+mimeo --prefer video/ogg $VIDEO_PLAYER
 mimeo --prefer video/quicktime $VIDEO_PLAYER
 mimeo --prefer video/vnd.avi $VIDEO_PLAYER
 mimeo --prefer video/webm $VIDEO_PLAYER
